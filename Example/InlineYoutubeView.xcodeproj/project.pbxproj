@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AADFEFD883B2A81C2903C6D /* Pods_InlineYoutubeView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9926BEC97C42DBDA6F38651 /* Pods_InlineYoutubeView_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,6 +22,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		BCDF45D0C25A0E47E28C47EB /* Pods_InlineYoutubeView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80C1B0CEEEF825B67380DAC2 /* Pods_InlineYoutubeView_Tests.framework */; };
 		F6502A342036E3940095EF9F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F6502A322036E3940095EF9F /* LICENSE */; };
 		F6FC19DD20223DC800638E65 /* YTVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FC19DC20223DC700638E65 /* YTVideoCell.m */; };
 /* End PBXBuildFile section */
@@ -77,6 +79,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				0AADFEFD883B2A81C2903C6D /* Pods_InlineYoutubeView_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +90,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
+				BCDF45D0C25A0E47E28C47EB /* Pods_InlineYoutubeView_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,7 +211,6 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				BAD4B061B0BDC547CD5110FE /* [CP] Embed Pods Frameworks */,
-				EA6FEE1B43614602AC3FCD14 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -226,8 +229,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				F341589150F681838211634F /* [CP] Embed Pods Frameworks */,
-				1F936D729082239D7493A375 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -300,21 +301,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1F936D729082239D7493A375 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InlineYoutubeView_Tests/Pods-InlineYoutubeView_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2D31310434A6AC31B573C0D5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -357,7 +343,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-InlineYoutubeView_Example/Pods-InlineYoutubeView_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-InlineYoutubeView_Example/Pods-InlineYoutubeView_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/InlineYoutubeView/InlineYoutubeView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -366,37 +352,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InlineYoutubeView_Example/Pods-InlineYoutubeView_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EA6FEE1B43614602AC3FCD14 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InlineYoutubeView_Example/Pods-InlineYoutubeView_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F341589150F681838211634F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InlineYoutubeView_Tests/Pods-InlineYoutubeView_Tests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InlineYoutubeView_Example/Pods-InlineYoutubeView_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
