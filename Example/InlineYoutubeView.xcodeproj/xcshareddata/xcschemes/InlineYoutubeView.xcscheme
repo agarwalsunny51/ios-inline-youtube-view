@@ -17,7 +17,7 @@
                BlueprintIdentifier = "1D78FEEC37CEE883D98E7E08DFAA176F"
                BuildableName = "InlineYoutubeView.framework"
                BlueprintName = "InlineYoutubeView"
-               ReferencedContainer = "container:Pods.xcodeproj">
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
